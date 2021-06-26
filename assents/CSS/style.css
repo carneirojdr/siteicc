@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display:flex;
+  justify-content:center;
+  height: 120px;
+}
+
+.container {
+  display:flex;
+  justify-content:space-between;
+  width: 990px;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+}
+
+.dimlogo {
+  width: 80px;
+  height: auto;
+  
+}
+
+.menu {
+  display:flex;
+  align-items: center;
+
+}
+
+nav ul, nav li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #727272;
+  font-family: Arial;
+}
+
+nav .active a,
+nav a:hover {
+  background-color: #6fb0bf;
+  border-radius: 25px;
+  color: #FFFFFF;
+}
+
+#banner {
+  background-image: url(../imagens/campus.png);
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+}
