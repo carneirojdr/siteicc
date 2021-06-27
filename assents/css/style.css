@@ -7,33 +7,34 @@ body {
 }
 
 header {
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   height: 120px;
 }
 
 .container {
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
   width: 990px;
 }
 
 .logo {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
 .dimlogo {
   width: 80px;
-  height: auto;  
+  height: auto;
 }
 
 .menu {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
-nav ul, nav li {
+nav ul,
+nav li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -56,7 +57,7 @@ nav .active a,
 nav a:hover {
   background-color: #6fb0bf;
   border-radius: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #banner {
@@ -74,14 +75,14 @@ nav a:hover {
 
 .banner_headline {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .banner_headline h1 {
-  color: #FFFFFF;
-  font-size: 60px;
+  color: #ffffff;
+  font-size: 70px;
   text-shadow: 2px 2px 0px #000000;
   margin: 0;
   padding: 0;
@@ -89,7 +90,7 @@ nav a:hover {
 }
 
 .banner_headline p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 25px;
   text-shadow: 2px 2px 0px #000000;
   margin: 0;
@@ -100,27 +101,27 @@ nav a:hover {
 
 .banner_options {
   height: 210px;
-  display:flex;
+  display: flex;
 }
 
 .banner1,
 .banner2,
 .banner3 {
   flex: 1;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px;
 }
 
 .banner1 {
-  background-color: #39AAE1;
+  background-color: #39aae1;
 }
 
 .banner2 {
-  background-color: #0079C7;
+  background-color: #0079c7;
 }
 
 .banner3 {
-  background-color: #2B4C99;
+  background-color: #2b4c99;
 }
 
 .banner_title {
@@ -134,10 +135,10 @@ nav a:hover {
 }
 
 .banner_options a {
-  display: block;
-  border: 1px solid #FFFFFF;
+  display: inline-block; /*A linhas do botão acompanha o texto*/
+  border: 1px solid #ffffff;
   padding: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13px;
   text-decoration: none;
 }
