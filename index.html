@@ -11,6 +11,18 @@
     <!-- Folha de stilo -->
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+    <script type="text/javascript">
+    window.onload = function(){
+      document.querySelector(".menuMobile").addEventListener("click", function(){
+        if (document.querySelector(".menu nav ul").style.display == 'flex'){
+          document.querySelector(".menu nav ul").style.display = 'none'; 
+        } else {
+          document.querySelector(".menu nav ul").style.display = 'flex';
+        }
+      }); /*Seleciona o botão da classe menuMobile*/
+    };
+    </script>
+
     <title>CIT</title>
   </head>
   <body>
@@ -22,6 +34,11 @@
         </div>
         <div class="menu">
           <nav>
+            <div class="menuMobile">
+              <div class="mn_line"></div>
+              <div class="mn_line"></div>
+              <div class="mn_line"></div>
+            </div>
             <ul>
               <li class="active"><a href="">Home</a></li>
               <li><a href="">Artigos</a></li>
